@@ -165,7 +165,7 @@ if
   62@ == 0 
 jf @CRASH4_1352 
 0395: clear_area 1 at 1924.632 -1126.623 24.135 radius 30.0 
-53@ = Actor.Create(Mission1, #BALLAS3, 1924.632, -1126.623, 24.135)
+53@ = Actor.Create(Mission1, #BALLAS2, 1924.632, -1126.623, 24.135)
 02A9: set_actor 53@ immune_to_nonplayer 1 
 Actor.Angle(53@) = 180.0
 60@ = Object.Create(#CIGAR, 1924.632, -1126.623, 24.135)
